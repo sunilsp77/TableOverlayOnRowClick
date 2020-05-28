@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.overlay {
+  position: fixed;
+  background: lightgreen;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 100vh;
+  visibility: hidden;
+}
+
+.overlay.open {
+  visibility: visible;
+}
+
+.overlay_data {
+  margin: 50px;
+  padding-right: 20px;
+}
+
+.overlay_button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

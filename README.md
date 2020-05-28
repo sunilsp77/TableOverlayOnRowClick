@@ -1,2 +1,0 @@
-# TableOverlayOnRowClick
-Created with CodeSandbox
