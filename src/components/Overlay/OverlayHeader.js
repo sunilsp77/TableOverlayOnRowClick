@@ -2,11 +2,11 @@ import React from "react";
 
 const OverlayHeader = () => {
   return (
-    <>
-      <p>Row1</p>
-      <p>Row2</p>
-      <p>Row3</p>
-    </>
+    <div>
+      <div>Row1</div>
+      <div>Row2</div>
+      <div>Row3</div>
+    </div>
   );
 };
 

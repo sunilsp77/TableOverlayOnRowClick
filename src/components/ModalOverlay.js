@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal } from "react-bootstrap";
+import OverlayHeader from "./Overlay/OverlayHeader";
 
 export default function ModalOverlay({ show, handleClose, overlayData }) {
   return (
@@ -10,7 +11,7 @@ export default function ModalOverlay({ show, handleClose, overlayData }) {
       dialogClassName="overlay_modal"
     >
       <Modal.Header closeButton>
-        <Modal.Title>Modal heading</Modal.Title>
+        <OverlayHeader />
       </Modal.Header>
       <Modal.Body bsPrefix="overlay_data">
         <p>Product Name : {overlayData ? overlayData.name : ""}</p>
