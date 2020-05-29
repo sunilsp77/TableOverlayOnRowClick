@@ -5,7 +5,7 @@
 
 .overlay {
   position: fixed;
-  background: lightgreen;
+  background: lightgray;
   top: 0;
   right: 0;
   width: 40vw;
@@ -34,4 +34,13 @@
   font-size: 25px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+.overlay_modal {
+  position: fixed;
+  background: lightgray;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 100vh;
 }
