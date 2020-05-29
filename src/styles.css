@@ -3,44 +3,30 @@
   text-align: center;
 }
 
-.overlay {
-  position: fixed;
-  background: lightgray;
-  top: 0;
-  right: 0;
-  width: 40vw;
-  height: 100vh;
-  visibility: hidden;
-}
-
-.overlay.open {
-  visibility: visible;
-}
-
-.overlay_data {
-  margin: 50px;
-  padding-right: 20px;
-}
-
-.overlay_button {
-  position: fixed;
-  top: 0;
-  right: 0;
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 6px 10px;
-  text-align: center;
-  font-size: 25px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
 .overlay_modal {
   position: fixed;
-  background: lightgray;
   top: 0;
   right: 0;
   width: 40vw;
-  height: 100vh;
+  height: 100%;
+  margin: 0;
+  max-height: 100%;
+}
+
+.custom_overlay .modal-content {
+  max-height: 100%;
+  background-color: #343a40;
+}
+
+.custom_overlay .modal-header {
+  border-bottom: 1px solid #242629;
+}
+
+.modal.fade:not(.in).right .modal-dialog {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.custom_overlay .card-body {
+  background-color: #2b262b;
 }

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BootstrapTable from "react-bootstrap-table-next";
-import { TableOverlay } from "./TableOverlay";
 import ModalOverlay from "./ModalOverlay";
 
 export default function Table() {
@@ -48,12 +47,6 @@ export default function Table() {
         rowEvents={rowEvents}
         hover
       />
-
-      {/* <TableOverlay
-        overlayData={overlayData}
-        showOverlay={showOverlay}
-        closeOverlay={closeOverlay}
-      /> */}
 
       <ModalOverlay
         overlayData={overlayData}
